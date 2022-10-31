@@ -47,7 +47,7 @@ export const DashboardLinks = [
     {
         key: "settings",
         lable: "Settings",
-        path: "/settings",
+        path: "/setting",
         icon: <FiIcons.HiOutlineCog />
     },
     {

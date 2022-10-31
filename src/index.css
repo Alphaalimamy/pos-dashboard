@@ -23,3 +23,14 @@
         @apply text-sky-500
     }
 }
+
+@media screen and (max-width:768px) {
+
+    .sidebar-container{
+        width: 5rem;
+        align-items: center;
+    }
+    .sidebar span{
+       display: none;
+    }
+}

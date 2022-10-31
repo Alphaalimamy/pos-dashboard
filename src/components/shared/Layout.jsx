@@ -1,5 +1,6 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
+import Header from './Header'
 import Sidebar from './Sidebar'
 
 const Layout = () => {
@@ -8,9 +9,9 @@ const Layout = () => {
             <div className='bg-purple-900'>
                 <Sidebar/>
             </div>
-            <div className="p-4 bg-purple-200 flex-1">
+            <div className="flex-1">
                 <div className='bg-teal-100'>
-                    Header
+                    <Header/>
                 </div>
                 <div><Outlet /></div>
             </div>
