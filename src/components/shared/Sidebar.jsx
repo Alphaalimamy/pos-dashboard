@@ -10,7 +10,7 @@ const linkClasses = 'flex item-center gap-2 font-light px-3 py-2 hover:bg-purple
 const Sidebar = () => {
     const navigate = useNavigate()
     return (
-        <div className='flex w-60 h-screen flex-col text-white p-3 sidebar-container'>
+        <div className='flex w-50 h-screen flex-col text-white p-3 sidebar-container '>
             <div className='flex items-center gap-2 px-2 py-3 cursor-pointer sidebar'  onClick={() => navigate("/")}>
                 <FcIcons.FcBullish fontSize={24} />
                 <span className='text-purple-200 text-lg'>Open POS</span>

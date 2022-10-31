@@ -23,7 +23,7 @@ const Header = () => {
 
                         <>
                             <Popover.Button className={classNames(open && "bg-purple-300 rounded-sm", "p-1.5 inline-flex items-center text-gray-700 hover:text-opacity-400 focus:outline-none active:bg-gray-500")} >
-                                <HiOutlineChatAlt fontSize={24} />
+                                <HiOutlineChatAlt fontSize={24} className="icon"/>
                             </Popover.Button>
                             <Transition
                                 as={Fragment}
@@ -53,7 +53,7 @@ const Header = () => {
 
                         <>
                             <Popover.Button className={classNames(open && "bg-purple-300 rounded-sm", "p-1.5 inline-flex items-center text-rose-700 hover:text-opacity-400 focus:outline-none active:bg-gray-500")} >
-                                <HiOutlineBell fontSize={24} />
+                                <HiOutlineBell fontSize={24}  className="icon"/>
                             </Popover.Button>
                             <Transition
                                 as={Fragment}
@@ -104,14 +104,14 @@ const Header = () => {
                             <div className="px-1 py-1 ">
                                 <Menu.Item>
                                     {({ active }) => (
-                                        <div className={classNames(active && "bg-purple-600 text-purple-100 rounded-md",'text-purple-500 focus:bg-purple-600 block cursor-pointer p-2  border-b-2')} onClick={() => navigate("/profile")}>
+                                        <div className={classNames(active && "bg-purple-600 text-purple-100 rounded-md",'text-purple-500 focus:bg-purple-600 block cursor-pointer p-2  border-b-2 menu-item')} onClick={() => navigate("/profile")}>
                                             Your Profile
                                         </div>
                                     )}
                                 </Menu.Item>
                                 <Menu.Item>
                                     {({ active }) => (
-                                        <div className={classNames(active && "bg-purple-600 text-purple-100 rounded-md",'text-purple-500 focus:bg-purple-600 block cursor-pointer p-2 border-b-2')} onClick={() => navigate("/setting")}>
+                                        <div className={classNames(active && "bg-purple-600 text-purple-100 rounded-md",'text-purple-500 focus:bg-purple-600 block cursor-pointer p-2 border-b-2 menu-item')} onClick={() => navigate("/setting")}>
                                             Settings
                                         </div>
                                     )}
@@ -119,7 +119,7 @@ const Header = () => {
 
                                 <Menu.Item>
                                     {({ active }) => (
-                                        <div className={classNames(active && "bg-purple-600 text-purple-100 rounded-md",'text-purple-500 focus:bg-purple-600 block cursor-pointer p-2 border-b-2')}  onClick={() => navigate("/")}>
+                                        <div className={classNames(active && "bg-purple-600 text-purple-100 rounded-md",'text-purple-500 focus:bg-purple-600 block cursor-pointer p-2 border-b-2 menu-item')}  onClick={() => navigate("/")}>
                                             Signout
                                         </div>
                                     )}
