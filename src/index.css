@@ -27,13 +27,16 @@
 @media screen and (max-width:768px) {
 
     .sidebar-container{
-        width: 5rem;
+        width: 3rem;
         align-items: center;
     }
     .sidebar span{
        display: none;
     }
 
+    .sidebar{
+        align-items: center;
+    }
     .search{
      width: 100%;
     }
