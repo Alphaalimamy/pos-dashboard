@@ -12,13 +12,12 @@ const Header = () => {
 
     return (
         <div className='bg-white h-16 px-4 flex justify-between items-center  border-b border-gray-200'>
-            <div className='relative'>
+            <div className='relative '>
                 <HiOutlineSearch fontSize={20} className="absolute text-gray-400 top-1/2 -translate-y-1/2 px-1" />
-                <input type="text" placeholder='Search...' className='text-sm focus:outline-none active:outline-none h-30 w-[24rem] border-gray-700 rounded-sm bg-purple-100 py-2 px-5 pl-11' />
+                <input type="text" placeholder='Search...' className='text-sm focus:outline-none active:outline-none h-30 w-[24rem] border-gray-700 rounded-sm bg-purple-100 py-2 px-5 pl-11 search' />
             </div>
 
-            <div className='flex items-center gap-2 mr-2'>
-
+            <div className='flex items-center gap-2 mr-2 left-search'>
                 <Popover className="relative">
                     {({ open }) => (
 

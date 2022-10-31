@@ -33,4 +33,13 @@
     .sidebar span{
        display: none;
     }
+
+    .search{
+     width: 70%;
+    }
+
+    .left-search{
+      width: 30%;
+      font-size: 1rem;
+    }
 }
