@@ -35,11 +35,12 @@
     }
 
     .search{
-     width: 70%;
+     width: 100%;
     }
 
     .left-search{
       width: 30%;
       font-size: 1rem;
+      padding-right: 1.5rem;
     }
 }
